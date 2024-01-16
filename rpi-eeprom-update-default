@@ -1,7 +1,7 @@
 
 FIRMWARE_ROOT=/lib/firmware/raspberrypi/bootloader
-FIRMWARE_RELEASE_STATUS="default"
-FIRMWARE_BACKUP_DIR="/var/lib/raspberrypi/bootloader/backup"
+FIRMWARE_RELEASE_STATUS="stable"
+FIRMWARE_BACKUP_DIR="${FIRMWARE_ROOT}/backup"
 EEPROM_CONFIG_HOOK=
 
 # BOOTFS can be set here to override auto-detection in rpi-eeprom-update
